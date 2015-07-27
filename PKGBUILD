@@ -2,8 +2,8 @@
 # Maintainer: BlackEagle <ike.devolder@gmail.com>>
 
 pkgname=kodi-audioencoder-lame
-pkgver=20150601.b283cd5
-pkgrel=2
+pkgver=20150727.0f612d4
+pkgrel=1
 pkgdesc="kodi audioencoder addon for lame (mp3)"
 arch=('i686' 'x86_64')
 url='https://github.com/xbmc/audioencoder.lame'
