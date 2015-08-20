@@ -2,8 +2,9 @@
 # Maintainer: BlackEagle <ike.devolder@gmail.com>>
 
 pkgname=kodi-audioencoder-lame
+_commit=5591a68
 pkgver=20150810.5591a68
-pkgrel=1
+pkgrel=2
 pkgdesc="kodi audioencoder addon for lame (mp3)"
 arch=('i686' 'x86_64')
 url='https://github.com/xbmc/audioencoder.lame'
@@ -11,7 +12,7 @@ license=('GPL')
 groups=('kodi-addons')
 depends=('kodi' 'lame')
 makedepends=('git' 'cmake')
-source=("$pkgname::git://github.com/xbmc/audioencoder.lame.git")
+source=("$pkgname::git://github.com/xbmc/audioencoder.lame.git#commit=$_commit")
 sha256sums=('SKIP')
 
 pkgver() {
