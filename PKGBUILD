@@ -1,15 +1,17 @@
 # $Id$
 # Maintainer: BlackEagle <ike.devolder@gmail.com>>
 
-pkgname=kodi-audioencoder-lame
+pkgname=kodi-addon-audioencoder-lame
 _commit=ffaf9cb
 pkgver=20160219.ffaf9cb
-pkgrel=1
-pkgdesc="kodi audioencoder addon for lame (mp3)"
+pkgrel=2
+pkgdesc="LAME Audio Encoder add-on for Kodi"
 arch=('i686' 'x86_64')
 url='https://github.com/xbmc/audioencoder.lame'
 license=('GPL')
-groups=('kodi-addons')
+groups=('kodi-addons' 'kodi-addons-audioencoder')
+provides=('kodi-audioencoder-lame')
+replaces=('kodi-audioencoder-lame')
 depends=('kodi' 'lame')
 makedepends=('git' 'cmake')
 source=("$pkgname::git://github.com/xbmc/audioencoder.lame.git#commit=$_commit")
