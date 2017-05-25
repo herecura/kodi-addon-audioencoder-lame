@@ -13,7 +13,7 @@ groups=('kodi-addons' 'kodi-addons-audioencoder')
 provides=('kodi-audioencoder-lame')
 replaces=('kodi-audioencoder-lame')
 depends=('kodi' 'lame')
-makedepends=('git' 'cmake' 'kodi-dev')
+makedepends=('cmake' 'kodi-dev')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/xbmc/audioencoder.lame/archive/v$pkgver.tar.gz")
 sha512sums=('4f4ce910f9831e6f86615b0dc97c77ce60a834d5fd4e000976c6cd84d411eaa65e1a9b8a38edae7ff7c52d1a24c99f794b65c76432cfe4eeb286050e495190c1')
 
