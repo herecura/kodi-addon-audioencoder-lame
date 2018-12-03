@@ -1,9 +1,8 @@
-# $Id$
 # Maintainer: BlackEagle <ike.devolder@gmail.com>>
 
 pkgname=kodi-addon-audioencoder-lame
 epoch=1
-pkgver=1.2.0
+pkgver=2.0.1
 pkgrel=1
 pkgdesc="LAME Audio Encoder add-on for Kodi"
 arch=('x86_64')
@@ -15,7 +14,7 @@ replaces=('kodi-audioencoder-lame')
 depends=('kodi' 'lame')
 makedepends=('cmake' 'kodi-dev')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/xbmc/audioencoder.lame/archive/v$pkgver.tar.gz")
-sha512sums=('4f4ce910f9831e6f86615b0dc97c77ce60a834d5fd4e000976c6cd84d411eaa65e1a9b8a38edae7ff7c52d1a24c99f794b65c76432cfe4eeb286050e495190c1')
+sha512sums=('eb780f31e96a0c745cb2598212aab39a065cc85b186b579ba2ace4732640588dabf9a6ef2e6ee57ddd793a2790cab0b8c2a1068714b80ecbfa4ae4a6eaf2f4b1')
 
 build() {
 	cd "audioencoder.lame-$pkgver"
